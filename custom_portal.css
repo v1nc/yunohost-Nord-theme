@@ -5,6 +5,16 @@
 ===============================================================================
 */
 
+#ynh-logo {
+  background-image: url("./logo.png");
+  height: 22em;
+}
+
+.logged #ynh-logo{
+  background-image: url("./logo_small.png") !important;
+  height: 5em !important;
+}
+
 body {
     background: #2e3440 !important;    
     color : #d8dee9 !important;
